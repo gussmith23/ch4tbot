@@ -19,7 +19,7 @@ since = int(time.time())
 
 # get config
 config = configparser.ConfigParser()
-config.read("chutbot.cfg")
+config.read("ch4tbot.cfg")
 
 # get bot
 bot = telebot.TeleBot(config['telegram_bot_api']['telegram_token'])
